@@ -1298,7 +1298,6 @@ body {
 
 .sites-site {
 	margin: 0 auto;
-
 }
 
 .sites-site img {
@@ -1320,4 +1319,9 @@ body {
 		max-width: 100%;
 		padding: 1rem 0px;
 	}
+
+	.header__logo img {
+		width: 4rem;
+	}
+
 }
