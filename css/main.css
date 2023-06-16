@@ -1286,7 +1286,6 @@ body {
 /***************************************************END*********************************************************/
 
 .header__logo img {
-	fill: red;
 	width: 5rem
 }
 
@@ -1299,12 +1298,26 @@ body {
 
 .sites-site {
 	margin: 0 auto;
-	height: 15rem;
-	overflow: hidden;
+
 }
 
 .sites-site img {
 	width: 400px;
 	max-width: 100%;
+	padding: 0 1rem;
+}
 
+@media(max-width: 991.98px) {
+	.container__sites {
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.sites-site {}
+
+	.sites-site img {
+		width: 500px;
+		max-width: 100%;
+		padding: 1rem 0px;
+	}
 }
